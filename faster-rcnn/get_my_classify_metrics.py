@@ -324,10 +324,7 @@ def evaluate_model(conf_threshold=0.001,
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
         "model_path"    : '/mnt/data/yanmingshuo/CODE/faster-rcnn-pytorch-master/model_data/trained_pth/best_epoch_weights_resnet50.pth',
-        # "model_path"    : '/mnt/data/yanmingshuo/CODE/faster-rcnn-pytorch-master/logs_for_vgg_4/ep005-loss0.572-val_loss0.573.pth',###################
-        #  "model_path"    : '/mnt/data/yanmingshuo/CODE/faster-rcnn-pytorch-master/logs_for_vgg_4/ep015-loss0.534-val_loss0.551.pth',        
-        # "model_path"    : '/mnt/data/yanmingshuo/CODE/faster-rcnn-pytorch-master/logs_for_vgg_4/ep005-loss0.572-val_loss0.573.pth',        
-
+      
         "classes_path"  : '/mnt/data/yanmingshuo/CODE/faster-rcnn-pytorch-master/model_data/voc_classes.txt',
         #---------------------------------------------------------------------#
         #   网络的主干特征提取网络，resnet50或者vgg
