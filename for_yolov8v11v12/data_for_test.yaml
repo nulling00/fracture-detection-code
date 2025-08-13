@@ -1,0 +1,13 @@
+path: /mnt/data/ningling/DATASET/dataset_yolo_all_fracture #骨折全图像数据
+# path: /mnt/data/ningling/DATASET/dataset_yolo_just_fracture #仅骨折图像数据
+# path: /mnt/data/ningling/DATASET/test_my_dataset #骨折全图像数据
+# 
+train: train/images
+# val: val/images
+
+# val: test_out/images
+val: test/images
+
+nc: 1
+names: ['fracture']
+
