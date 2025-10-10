@@ -18,7 +18,8 @@ code/
 |---- ---- get_classification_metrics.py
 |---- ---- ...
 |---- for_yolov8v11v12/
-|---- ---- train.py
+|---- ---- python train_vgg.py
+|---- ---- python train_res50
 |---- ---- get_classification_metrics.py
 |---- ---- ...
 ```
