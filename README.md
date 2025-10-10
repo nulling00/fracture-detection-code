@@ -111,54 +111,10 @@ python get_classification_metrics.py*
 The results of the YOLOv8, YOLOv11, YOLOv12 and Faster-RCNN models in the test set are as follows:
 
 
-<!-- <table>
-    <tr>
-        <th> </th>
-        <th>Method</th>
-        <th>AUROC</th>
-        <th>P</th>
-        <th>R</th>
-        <th>F1</th>
-    </tr>
-    <tr>
-        <th rowspan=3>Image-level<br>Detection</th>
-        <td>w/o pre</td>
-        <td>99.21/99.48/99.39</td>
-        <td>98.44/98.72/99.17</td>
-        <td>99.21/99.14/99.21</td>
-        <td>0.99/0.99/0.99</td>
-    </tr>
-        <td>w/ pre</td>
-        <td>99.24/99.60/99.47</td>
-        <td>98.44/99.14/99.44</td>
-        <td>99.21/99.14/99.17</td>
-        <td>0.99/0.99/0.99</td>
-    </tr>
-        <td>Upper Bound</td>
-        <td>100.0/100.0/100.0</td>
-        <td>100.0/100.0/100.0</td>
-        <td>100.0/100.0/100.0</td>
-        <td>1.00/1.00/1.00</td>
-    </tr>
-        <tr>
-        <th rowspan=3>Pixel-level<br>Localization</th>
-        <td>w/o pre</td>
-        <td>95.59/98.18/97.13</td>
-        <td>58.05/66.59/63.58</td>
-        <td>72.15/77.31/75.51</td>
-        <td>0.63/0.70/0.68</td>
-    </tr>
-        <td>w/ pre</td>
-        <td>95.70/98.29/97.37</td>
-        <td>58.06/66.53/63.52</td>
-        <td>71.67/77.15/75.26</td>
-        <td>0.63/0.70/0.68</td>
-    </tr>
-        <td>Upper Bound</td>
-        <td>96.94/99.49/98.59</td>
-        <td>59.38/68.73/65.42</td>
-        <td>75.20/79.34/77.90</td>
-        <td>0.65/0.73/0.70</td>
-    </tr>
-</table> -->
+
+![ALL THE ROC](./result/Figure_roc_all.png)
+
+![ALL THE PR ](./result/Figure_pr_all.png)
+
+
 
