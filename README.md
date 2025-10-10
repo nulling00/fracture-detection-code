@@ -10,14 +10,17 @@ The code is divided into two parts:
 - for_yolov8v11v12: This is the implementation of the YOLOv8, YOLOv11, and YOLOv12 models for fracture detection.
 
 The structure of the code directory is as follows:
+
 ```shell
 code/
 |---- faster-rcnn/
 |---- ---- train.py
-|---- ---- test.py
+|---- ---- get_classification_metrics.py
+|---- ---- ...
 |---- for_yolov8v11v12/
 |---- ---- train.py
-|---- ---- test.py
+|---- ---- get_classification_metrics.py
+|---- ---- ...
 ```
 
 Environment:
@@ -90,7 +93,7 @@ To test fasterrcnn modelin the test set, please set your parammers in ***get_cla
 
 ```test
 cd ./code/faster-rcnn
-python test.py
+python get_classification_metrics.py
 ```
 
 To train the YOLOv8, YOLOv11, and YOLOv12 models,you can set your parammers（such as the type of model, the number of epochs, and the learning rate and so on） in ***train.py*** and then run:
