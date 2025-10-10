@@ -1,0 +1,27 @@
+=== Evaluation Metrics (95% CI) ===
+Accuracy: 0.7302 [0.6735-0.7837]
+Sensitivity: 0.8636 [0.7934-0.9244]
+Specificity: 0.6215 [0.5433-0.6992]
+Missed_Diagnosis_Rate: 0.1364 [0.0756-0.2066]
+Misdiagnosis_Rate: 0.3785 [0.3008-0.4567]
+PPV: 0.6503 [0.5746-0.7246]
+NPV: 0.8481 [0.7677-0.9167]
+AUC: 0.8801 [0.8195-0.9344]
+Mean_IoU: 0.6191 [0.0000-0.8945]
+
+=== Confusion Matrix ===
+TP: 95, FP: 51
+FN: 15, TN: 84
+
+=== Raw Counts ===
+Total Positives: 110
+Total Negatives: 135
+Total Samples: 245
+
+Calculating mAP (IoU@0.5)...
+88.60% = fracture AP    ||      score_threhold=0.25 : F1=0.53 ; Recall=92.73% ; Precision=36.69%
+mAP = 88.60%
+
+Calculating mAP (IoU@0.5)...
+91.65% = fracture AP    ||      score_threhold=0.75 : F1=0.83 ; Recall=89.72% ; Precision=77.11%
+mAP = 91.65%

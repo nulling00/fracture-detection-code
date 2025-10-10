@@ -1,0 +1,18 @@
+=== Evaluation Metrics (95% CI) ===
+Accuracy: 0.8846 [0.8413-0.9279]
+Sensitivity: 0.9522 [0.9056-0.9898]
+Specificity: 0.8173 [0.7426-0.8925]
+Missed_Diagnosis_Rate: 0.0478 [0.0102-0.0944]
+Misdiagnosis_Rate: 0.1827 [0.1075-0.2574]
+PPV: 0.8384 [0.7727-0.9068]
+NPV: 0.9450 [0.8921-0.9888]
+AUC: 0.9550 [0.9254-0.9793]
+
+=== Confusion Matrix ===
+TP: 99, FP: 19
+FN: 5, TN: 85
+
+=== Raw Counts ===
+Total Positives: 104
+Total Negatives: 104
+Total Samples: 208
