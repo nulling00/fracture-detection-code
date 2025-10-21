@@ -114,11 +114,11 @@ python get_classification_metrics.py*
 ### Result
 The results of the YOLOv8, YOLOv11, YOLOv12 and Faster-RCNN models in the test set are as follows:
 
+![ALL THE ROC](./result/fig_all.png)
 
+The heatmaps is showed as:
 
-![ALL THE ROC](./result/Figure_roc_all.png)
-
-![ALL THE PR ](./result/Figure_pr_all.png)
+![SOME HEATMAPS](./result/heatmaps.png)
 
 
 
